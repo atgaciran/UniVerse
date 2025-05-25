@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # UniVerse
 =======
 # UniVerse - Student Assistant App
@@ -31,4 +30,3 @@ UniVerse is a student assistant application designed to help students easily man
 - Sama Orujova  
 - Tolga Seymen  
 - Yakup Karataş  
->>>>>>> 79e226a (added UniVerse)
