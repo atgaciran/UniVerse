@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_material_chat"
+        android:icon="@drawable/chat"
+        android:title="@string/title_material_chat" />
+
+    <item
+        android:id="@+id/navigation_exam_schedule"
+        android:icon="@drawable/exam_schedule"
+        android:title="@string/title_exam_schedule"
+        />
+
+    <item
+        android:id="@+id/navigation_home"
+        android:enabled="false"
+        android:icon="@null"
+        android:title=""
+        android:checkable="false" />
+
+    <item
+        android:id="@+id/navigation_course_schedule"
+        android:icon="@drawable/course_schedule"
+        android:title="@string/title_course_schedule" />
+
+    <item
+        android:id="@+id/navigation_menu"
+        android:icon="@drawable/menu"
+        android:title="@string/title_menu" />
+
+</menu>

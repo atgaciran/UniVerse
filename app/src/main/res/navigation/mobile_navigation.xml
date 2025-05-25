@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_material_chat"
+        android:name="com.example.universe.ui.material_chat.MaterialChatFragment"
+        android:label="@string/title_material_chat"
+        tools:layout="@layout/fragment_material_chat"
+
+        />
+
+    <fragment
+        android:id="@+id/navigation_exam_schedule"
+        android:name="com.example.universe.ui.exam_schedule.ExamScheduleFragment"
+        android:label="@string/title_exam_schedule"
+        tools:layout="@layout/fragment_exam_schedule" />
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.universe.ui.home.HomeFragment"
+        android:label="@string/title_homepage"
+        tools:layout="@layout/fragment_home"
+        />
+
+    <fragment
+        android:id="@+id/navigation_course_schedule"
+        android:name="com.example.universe.ui.course_schedule.CourseScheduleFragment"
+        android:label="@string/title_course_schedule"
+        tools:layout="@layout/fragment_course_schedule" />
+
+    <fragment
+        android:id="@+id/navigation_menu"
+        android:name="com.example.universe.ui.menu.MenuFragment"
+        android:label="@string/title_menu"
+        tools:layout="@layout/fragment_menu" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.universe.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>

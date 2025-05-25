@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UniVerse</string>
+    <string name="title_homepage">Ana Sayfa</string>
+    <string name="title_menu">Menü</string>
+    <string name="title_course_schedule">Ders Programı</string>
+    <string name="title_material_chat">Materyal / Chat</string>
+    <string name="title_exam_schedule">Sınav Takvimi</string>
+    <string name="title_profile">Profil</string>
+    <string name="title_logout">Çıkış Yap</string>
+</resources>

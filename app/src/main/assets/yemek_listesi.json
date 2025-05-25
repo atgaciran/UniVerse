@@ -1,0 +1,258 @@
+[
+  {
+    "tarih": "5 Mayıs 2025 Pazartesi",
+    "corba": "Ezogelin Çorbası",
+    "ana_yemek": "Şehriyeli Güveç",
+    "alternatif_yemek": "*Etsiz  Türlü",
+    "yardimci_yemek": "Aysberg salata",
+    "tatli": "Mozaik Pasta",
+    "kalori": 1200
+  },
+  {
+    "tarih": "6 Mayıs 2025 Salı",
+    "corba": "Köylü Çorbası",
+    "ana_yemek": "Etli Taze Fasülye",
+    "alternatif_yemek": "* Etsiz Taze Fasülye",
+    "yardimci_yemek": "Pirinç Pilavı",
+    "tatli": "Cacık",
+    "kalori": 1150
+  },
+  {
+    "tarih": "7 Mayıs 2025 Çarşamba",
+    "corba": "Yayla Çorbası",
+    "ana_yemek": "Mantar Soslu Sahan Köfte",
+    "alternatif_yemek": "* Mantar Kavurma",
+    "yardimci_yemek": "Soslu Makarna",
+    "tatli": "Meyve",
+    "kalori": 1200
+  },
+  {
+    "tarih": "8 Mayıs 2025 Perşembe",
+    "corba": "Mercimek Çorbası",
+    "ana_yemek": "Antep Usulü Patates",
+    "alternatif_yemek": "* Etsiz Antep Usulü Patates",
+    "yardimci_yemek": "Bulgur Pilavı",
+    "tatli": "Salata",
+    "kalori": 1200
+  },
+  {
+    "tarih": "9 Mayıs 2025 Cuma",
+    "corba": "Tarhana Çorbası",
+    "ana_yemek": "Tavuk Sote",
+    "alternatif_yemek": "*Peynirli Makarna",
+    "yardimci_yemek": "Barbunya Piyazı",
+    "tatli": "Sütlü İrmik Tatlısı",
+    "kalori": 1200
+  },
+  {
+    "tarih": "10 Mayıs 2025 Cumartesi",
+    "corba": "Tatil",
+    "ana_yemek": "Tatil",
+    "alternatif_yemek": "*Tatil",
+    "yardimci_yemek": "Tatil",
+    "tatli": "Tatil",
+    "kalori": 0
+  },
+    {
+    "tarih": "11 Mayıs 2025 Pazar",
+    "corba": "Tatil",
+    "ana_yemek": "Tatil",
+    "alternatif_yemek": "*Tatil",
+    "yardimci_yemek": "Tatil",
+    "tatli": "Tatil",
+    "kalori": 0
+  },
+  {
+    "tarih": "12 Mayıs 2025 Pazartesi",
+    "corba": "Peskütan Çorbası",
+    "ana_yemek": "Tas Kebabı",
+    "alternatif_yemek": "*Etsiz Patates",
+    "yardimci_yemek": "Pirinç Pilavı",
+    "tatli": "Meyve",
+    "kalori": 1200
+  },
+
+  {
+    "tarih": "13 Mayıs 2025 Salı",
+    "corba": "Düğün Çorbası",
+    "ana_yemek": "Etli Nothut",
+    "alternatif_yemek": "*Etsiz Nohut",
+    "yardimci_yemek": "Bulgur Pilavı",
+    "tatli": "Turşu",
+    "kalori": 1150
+  },
+
+  {
+    "tarih": "14 Mayıs 2025 Çarşamba",
+    "corba": "Ezogelin Çorbası",
+    "ana_yemek": "Köri Soslu Tavuk",
+    "alternatif_yemek": "*Etsiz Bamya",
+    "yardimci_yemek": "Şehriyeli Pirinç Pilavı",
+    "tatli": "Tiramisu",
+    "kalori": 1150
+  },
+
+  {
+    "tarih": "15 Mayıs 2025 Perşembe",
+    "corba": "Mercimek Çorbası",
+    "ana_yemek": "Çiftlik Köfte",
+    "alternatif_yemek": "*Etsiz Patlıcan",
+    "yardimci_yemek": "Soslu Makarna",
+    "tatli": "Salata",
+    "kalori": 1200
+  },
+
+  {
+    "tarih": "16 Mayıs 2025 Cuma",
+    "corba": "Domates Çorbası",
+    "ana_yemek": "Özbek Pilavı",
+    "alternatif_yemek": "*Etsiz Kabak",
+    "yardimci_yemek": "Mercimek Piyazı",
+    "tatli": "Yoğurt",
+    "kalori": 1200
+  },
+    {
+    "tarih": "17 Mayıs 2025 Cumartesi",
+    "corba": "Tatil",
+    "ana_yemek": "Tatil",
+    "alternatif_yemek": "*Tatil",
+    "yardimci_yemek": "Tatil",
+    "tatli": "Tatil",
+    "kalori": 0
+  },
+    {
+    "tarih": "18 Mayıs 2025 Pazar",
+    "corba": "Tatil",
+    "ana_yemek": "Tatil",
+    "alternatif_yemek": "*Tatil",
+    "yardimci_yemek": "Tatil",
+    "tatli": "Tatil",
+    "kalori": 0
+  },
+
+  {
+    "tarih": "19 Mayıs 2025 Pazartesi",
+    "corba": "Tatil",
+    "ana_yemek": "Tatil",
+    "alternatif_yemek": "*Tatil",
+    "yardimci_yemek": "Tatil",
+    "tatli": "Tatil",
+    "kalori": 0
+  },
+
+  {
+    "tarih": "20 Mayıs 2025 Salı",
+    "corba": "Mercimek Çorbası",
+    "ana_yemek": "Etli Bezelye",
+    "alternatif_yemek": "*Etsiz Bezelye",
+    "yardimci_yemek": "Cevizli Erişte",
+    "tatli": "Cacık",
+    "kalori": 1100
+  },
+
+  {
+    "tarih": "21 Mayıs 2025 Çarşamba",
+    "corba": "Ezogelin Çorbası",
+    "ana_yemek": "Et Tantuni",
+    "alternatif_yemek": "* Etsiz Taze Fasülye",
+    "yardimci_yemek": "Salata",
+    "tatli": "Ayran",
+    "kalori": 1200
+  },
+  {
+    "tarih": "22 Mayıs 2025 Perşembe",
+    "corba": "Hanımağa Çorbası",
+    "ana_yemek": "Fırın Tavuk Baget/Sebze Garni",
+    "alternatif_yemek": "* Mantar sote",
+    "yardimci_yemek": "Pirinç Pilavı",
+    "tatli": "Mozaik Pasta",
+    "kalori": 1200
+  },
+  {
+    "tarih": "23 Mayıs 2025 Cuma",
+    "corba": "Şehriye  Çorbası",
+    "ana_yemek": "Beğendili Köfte",
+    "alternatif_yemek": "* Etsiz  Patlıcan",
+    "yardimci_yemek": "Bulgur Pilavı",
+    "tatli":"Meyve",
+    "kalori": 1150
+  },
+    {
+    "tarih": "24 Mayıs 2025 Cumartesi",
+    "corba": "Tatil",
+    "ana_yemek": "Tatil",
+    "alternatif_yemek": "*Tatil",
+    "yardimci_yemek": "Tatil",
+    "tatli": "Tatil",
+    "kalori": 0
+  },
+    {
+    "tarih": "25 Mayıs 2025 Pazar",
+    "corba": "Tatil",
+    "ana_yemek": "Tatil",
+    "alternatif_yemek": "*Tatil",
+    "yardimci_yemek": "Tatil",
+    "tatli": "Tatil",
+    "kalori": 0
+  },
+  {
+    "tarih": "26 Mayıs 2025 Pazartesi",
+    "corba": "Mercimek Çorbası",
+    "ana_yemek": "Et sote",
+    "alternatif_yemek": "* Etsiz Kabak",
+    "yardimci_yemek": "Su böreği",
+    "tatli":"Ayran",
+    "kalori": 1200
+  },
+  {
+    "tarih": "27 Mayıs 2025 Salı",
+    "corba": "Mantar Çorbası",
+    "ana_yemek": "Köri Soslu Tavuk",
+    "alternatif_yemek": "* Barbunya Pilaki",
+    "yardimci_yemek": "Mercimekli Bulgur Pilavı",
+    "tatli":"Salata",
+    "kalori": 1150
+  },
+
+  {
+    "tarih": "28 Mayıs 2025 Çarşamba",
+    "corba": "Domates Çorbası",
+    "ana_yemek": "Hasan Paşa Köfte",
+    "alternatif_yemek": "* Etsiz  Patates",
+    "yardimci_yemek": "Gökçesu Pilavı",
+    "tatli":"Yoğurtlu Pancar",
+    "kalori": 1200
+  },
+
+    {
+    "tarih": "29 Mayıs 2025 Perşembe",
+    "corba": "Alaca Çorbası",
+    "ana_yemek": "Şehriyeli Güveç",
+    "alternatif_yemek": "*Şehriyeli pilav",
+    "yardimci_yemek": "Domates Soslu Şakşuka",
+    "tatli":"Trileçe",
+    "kalori": 1200
+  },
+  {
+    "tarih": "30 Mayıs 2025 Cuma",
+    "corba": "Ezogelin Çorbası",
+    "ana_yemek": "Etli Biber Dolma",
+    "alternatif_yemek": "*Etsiz  Biber Dolma",
+    "yardimci_yemek": "Peynirli Makarna",
+    "tatli":"Meyve",
+    "kalori": 1200
+  },
+    {
+    "tarih": "31 Mayıs 2025 Cumartesi",
+    "corba": "Tatil",
+    "ana_yemek": "Tatil",
+    "alternatif_yemek": "*Tatil",
+    "yardimci_yemek": "Tatil",
+    "tatli": "Tatil",
+    "kalori": 0
+  }
+
+  
+
+
+]

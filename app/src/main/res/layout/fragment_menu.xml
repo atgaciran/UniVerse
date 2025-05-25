@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.menu.MenuFragment">
+
+    <!-- ÜST BÖLÜM (Dokunulmadı) -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/topbox"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- ALT BÖLÜM -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#CCCCCC"
+        app:layout_constraintHeight_percent="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topbox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <!-- İç Kutu -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/inner_layout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/rounded_bg"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="64dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <!-- Tarih -->
+            <TextView
+                android:id="@+id/text_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tarih"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <!-- Ayırıcı Çizgi -->
+            <View
+                android:id="@+id/break_line"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:background="#000000"
+                app:layout_constraintTop_toBottomOf="@id/text_date"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="8dp"/>
+
+            <!-- Geri Ok -->
+            <ImageButton
+                android:id="@+id/button_prev_day"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/previous2"
+                android:contentDescription="Önceki gün"
+                android:scaleType="centerInside"
+                app:layout_constraintTop_toTopOf="@id/recycler_meals"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="4dp" />
+
+            <!-- İleri Ok -->
+            <ImageButton
+                android:id="@+id/button_next_day"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/next2"
+                android:contentDescription="Sonraki gün"
+                android:scaleType="centerInside"
+                app:layout_constraintTop_toTopOf="@id/recycler_meals"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="4dp" />
+
+            <!-- RecyclerView -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_meals"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:clipToPadding="false"
+                android:paddingTop="8dp"
+                app:layout_constraintTop_toBottomOf="@id/break_line"
+                app:layout_constraintBottom_toTopOf="@id/text_total_calories"
+                app:layout_constraintStart_toEndOf="@id/button_prev_day"
+                app:layout_constraintEnd_toStartOf="@id/button_next_day" />
+
+            <!-- Toplam Kalori -->
+            <TextView
+                android:id="@+id/text_total_calories"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Toplam: 0 kcal"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:gravity="start"
+                android:padding="8dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginHorizontal="40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
