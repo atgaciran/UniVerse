@@ -1,5 +1,3 @@
-# UniVerse
-=======
 # UniVerse - Student Assistant App
 
 This project was developed for the **CENG106 Object Oriented Programming** course.
